@@ -1,0 +1,17 @@
+To compile, simply, type ''make'' at the terminal (without the quotes).
+
+- By: Armando Acosta - aacosta13@csu.fullerton.edu
+- Programmed in C++
+– How to run: a makefile was created for the project, therefore in order to compile the program, all that is needed is to type 'make' in the
+  corresponding directory and it will automatically build the components. From there, to run the program, one must simply type the necessary
+  arguments indicating the cipher, encryption/decryption, the key to be used, and the input/output files to be used/created.
+  
+  e.g. ./cipher <CIPHER NAME> <KEY> <ENC/DEC> <INPUTFILE> <OUTPUT FILE>
+
+  All required ciphers implemented, possible cipher names:
+  - plf (Playfair)
+  - rts (Row Transposition)
+  - rfc (Railfence)
+  - vig (Vigenere)
+  - ces (Caesar)
+
